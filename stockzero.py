@@ -23,4 +23,5 @@ namespace {
 Bitboard RookTable[0×19000] 
 Bitboard BishopTable[0×1480]
 
-void init_magics(PieceType pt, Bitboard table,Magic magics);
+void init_magics(PieceType pt, Bitboard table[],Magic magics[]);
+}
